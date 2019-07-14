@@ -8,7 +8,7 @@ This is a tutorial along with the code for how to perform a topic modeling using
 1. [Machine Learning](machine-learning.md)
 2. [What is Topic Modeling](topic-modeling.md)
 3. [What is Latent Dirichlet Allocation](lda.md)
-4. [How LDA works](lda-explained.md)
+4. [Applying LDA](lda-application.md)
 5. [Source Code Example](lda-code-example.md)
 
 
