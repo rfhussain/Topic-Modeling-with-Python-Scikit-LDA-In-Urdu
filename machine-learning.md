@@ -14,5 +14,4 @@
 ### <p align="center">Un-Supervised Machine Learning</p>
 ###### <div dir="rtl">یہ     Machine Learning     کی وہ قسم ہے جس کی تربیت کرنے کے لیے آپ کے پاس ماضی کا ڈیٹا دستیاب نہیں ہوتا ہے بلکہ یہ ایک Unsupervised Machine Learning کے تحت اپنی تربیت آپ کرتی ہے ۔   Topic Modelingبھی اسی کہ ایک قسم ہے ۔ہم اب اس کا جائزہ لیں گے اور اس کی چند Coding Examples    دیکھیں گے ۔</div>
 
-[Main Page](README.md)
-[Topic Modeling](topic-modeling.md) 
+[>> Go to Main Page](README.md)                           [>>Go to Topic Modeling](topic-modeling.md) 
