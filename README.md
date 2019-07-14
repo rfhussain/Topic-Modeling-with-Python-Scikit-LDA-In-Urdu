@@ -5,8 +5,8 @@ This is a tutorial along with the code for how to perform a topic modeling using
 ###### <div dir="rtl">اس سے پہلے کہ ابتداء کی جائے ۔ چند موضوعات کا مختصر تعارف دینا ضروری ہے۔ امید ہے کہ آپ پہلے سے ہی ان موضوعات سے واقف ہوں گے لیکن پھر بھی ان لوگوں کے لیے جو کہ پہلی مرتبہ     ڈیٹا سائنس     میں دلچسپی لے رہے ہیں ۔ ان کے لیے مختصر تعارف  درج ذیل ہے ۔ </div>
 
 ###### <ul dir="rtl">
-  ###### <li>مشین لرننگ Machine Learning</li>
-  ###### <li>موجوعات کی جانچ Topic Modeling</li>
+  ###### <li dir="rtl">[مشین لرننگ Machine Learning](machine-learning.md)</li>
+  ###### <li dir="rtl">[موجوعات کی جانچ Topic Modeling](topic-modeling.md)</li>
 ###### </ul>  
 
 ### <p align="center">Topic Modeling</p>
