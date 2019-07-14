@@ -4,23 +4,13 @@ This is a tutorial along with the code for how to perform a topic modeling using
 
 ###### <div dir="rtl">اس سے پہلے کہ ابتداء کی جائے ۔ چند موضوعات کا مختصر تعارف دینا ضروری ہے۔ امید ہے کہ آپ پہلے سے ہی ان موضوعات سے واقف ہوں گے لیکن پھر بھی ان لوگوں کے لیے جو کہ پہلی مرتبہ     ڈیٹا سائنس     میں دلچسپی لے رہے ہیں ۔ ان کے لیے مختصر تعارف  درج ذیل ہے ۔ </div>
 
-###### <ul dir="rtl">
-  ###### <li dir="rtl">[مشین لرننگ Machine Learning](machine-learning.md)</li>
-  ###### <li dir="rtl">[موجوعات کی جانچ Topic Modeling](topic-modeling.md)</li>
-###### </ul>  
+### Table of Contents
+1. [Machine Learning](machine-learning.md)
+2. [Topic Modeling](topic-modeling.md)
+3. [Latent Dirichlet Allocation](lda.md)
+4. [LDA Example](lda-example.md)
+5. [Source Code Example](lda-code-example.md)
 
-### <p align="center">Topic Modeling</p>
-###### <div dir="rtl"> ایک ایسی تکنیک ہے جس کے ذریعے سے ہم کسی بڑے حجم کے مواد Text Corpus    کی جانج پڑتال یعنی Analysis کرسکتے ہیں ۔ یہ اس   Text Corpus میں موجود مختلف دستاویزات Documents   کو  موضوعات  Topics     میں یکجا کردیتی ہے </div>
-###### <div dir="rtl"> خاص بات یہ ہے کہ ہم اس مواد Text Corpus پہ Supervised Learning  کا طریقہ کار استعمال کرکے اس سے Machine Learning Model نہیں بنا سکتے ہیں ۔  کیوں کہ ایسا کرنے کے لیے ہمیں Historical Data (ماضی میں جمع کیے گئے) مواد کی بھی ضرورت پڑے گی۔ جو کسی حقیقی پراجیکٹ میں ممکنہ طور پہ ہمارے پاس دستیاب نہیں ہوگا ۔ </div>
-###### <div dir="rtl">Historical Data    اگر موجود ہو تو ہم اخذ کرسکتے ہیں کہ اس کی خصوصیات یا ملتی جلتی چند خصوصیات مستقبل کے Data    میں بھی موجود ہوں ۔ </div>
-###### <div dir="rtl">ثابت ہوا کہ Topic Modeling کی اصطلاح خود ساختہ  Unsupervised Learning کے لیے ہے </div>
-###### <div dir="rtl"></div>
-###### <div dir="rtl">ہمارے پاس روز مرہ کی زندگی میں جو مواد Text Corpus کی صورت میں آتا ہے ۔ مشین اس کی نوعیت Label سے ناواقف ہوتی ہے کہ یہ مثبت Positive ہے کہ منفی Negative یا پھر اگر کوئی ای میل موصول ہورہی ہے تو کیا وہ اصلی Ham ہے یا دھوکہ Spam ہے۔</div>
-###### <div dir="rtl">حقیقت میں جو مواد مشین کو موصول ہوتا ہے اس کی نوعیت کے لحاظ سے بہت سی مختلف انواع  Labels   ہو سکتی ہیں۔</div>
-###### <div dir="rtl">جیسا کہ اگر اخبار کا کوئی آرٹیکل ہے تو وہ ابتدائی طور پہ کسی نوعیت کے بغیر ہوگا۔ اور یہ بحیثیت ڈیٹا سائنس انجنئیر ہمارا کام ہے کہ ہم Topic Modeling کو استعمال کرتے ہوئے اس کی نوعیت کا ادارک کریں۔</div>
-###### <div dir="rtl">یعنی یوں کہا جائے کہ اگر ہمارے پاس بہت بڑے حجم کا مواد  text کی صورت میں  موجود  ہے تو ہم اس مواد کو اس کے موضوعات کے لحاظ سے مختلف  documents  میں بانٹ دیں گے۔</div>
-###### <div dir="rtl">لحاظہ کسی بھی مواد کی نوعیت کا پتہ لگانا یا اس کا صحیح جواب دینا انتہائی مشکل ہے ۔ ہمیں صرف یہ پتہ ہوگا کہ یہ مواد مختلف موضوعات میں تقسیم ہے ۔ اور اس مواد میں موجود مختلف دستاویزات (documents) اپنے موضوعات کی مماثلت ہی کہ وجہ سے باہم یکجا ہیں۔اب یہ ہمارا کام ہے کہ ہم یہ پہنچانیں کہ یہ موضوعات کیا ہیں ۔ </div>
-###### <div dir="rtl">ہم اب یہ سیکھیں گے کہ کس طرح کسی بہت سے دستاویزات (documents) پہ مشتمل مواد میں مخفی موضوع کو تلاش کرتے ہیں </div>
 
 ###### <div dir="rtl"></div>
 ###### <div dir="rtl"></div>
