@@ -2,7 +2,7 @@
 This is a tutorial along with the code for how to perform a topic modeling using unsupervised machine learning
 
 
-###### <div dir="rtl">اس سے پہلے کہ ابتداء کی جائے ۔ چند موضوعات کا مختصر تعارف دینا ضروری ہے۔ امید ہے کہ آپ پہلے سے ہی ان موضوعات سے واقف ہوں گے لیکن پھر بھی ان لوگوں کے لیے جو کہ پہلی مرتبہ     ڈیٹا سائنس     میں دلچسپی لے رہے ہیں ۔ ان کے لیے مختصر تعارف  درج ذیل ہے ۔ </div>
+###### <div dir="rtl">یہ تحریر آپ کوMachine Learning  کا تعارف دیتے ہوئے     Topic Modeling   کی طرف لے کر جائے گی ۔ جو کہ Machine Learning کی ایک قسم ہے </div>
 
 ### Table of Contents
 1. [Machine Learning](machine-learning.md)
@@ -13,7 +13,4 @@ This is a tutorial along with the code for how to perform a topic modeling using
 
 
 ###### <div dir="rtl"></div>
-###### <div dir="rtl"></div>
-###### <div dir="rtl"></div>
-###### <div dir="rtl"></div>
-###### <div dir="rtl"></div>
+
