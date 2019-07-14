@@ -34,4 +34,4 @@
 
 
 - [Main Page](README.md)
-- [LDA Code](lda-application.md)
+- [LDA Code](lda-code.md)
