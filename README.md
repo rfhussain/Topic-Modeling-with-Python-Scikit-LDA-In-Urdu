@@ -2,7 +2,7 @@
 This is a tutorial along with the code for how to perform a topic modeling using unsupervised machine learning
 
 
-### <p style="text-align: center;">Topic Modeling</p>
+### <p align="center">Topic Modeling</p>
 
 ###### <div dir="rtl"> ایک ایسی تکنیک ہے جس کے ذریعے سے ہم کسی بڑے حجم کے مواد Text Corpus    کی جانج پڑتال یعنی Analysis کرسکتے ہیں ۔ یہ اس   Text Corpus میں موجود مختلف دستاویزات Documents   کو  موضوعات  Topics     میں یکجا کردیتی ہے </div>
 ###### <div dir="rtl"> خاص بات یہ ہے کہ ہم اس مواد Text Corpus پہ Supervised Learning  کا طریقہ کار استعمال کرکے اس سے Machine Learning Model نہیں بنا سکتے ہیں ۔  کیوں کہ ایسا کرنے کے لیے ہمیں Historical Data (ماضی میں جمع کیے گئے) مواد کی بھی ضرورت پڑے گی۔ جو کسی حقیقی پراجیکٹ میں ممکنہ طور پہ ہمارے پاس دستیاب نہیں ہوگا ۔ </div>
