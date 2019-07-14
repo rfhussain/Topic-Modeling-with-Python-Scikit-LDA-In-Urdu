@@ -26,3 +26,6 @@
 ###### <div dir="rtl">اور ہم جب python  میں کوڈنگ کریں گے تو ہم اس بات کا براہ راست تجربہ کریں گے</div>
 ###### <div dir="rtl"></div>
 ###### <div dir="rtl"></div>
+
+- [Main Page](README.md)
+- [LDA Example](lda-source.md)
