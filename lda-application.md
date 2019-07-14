@@ -34,4 +34,4 @@
 
 
 - [Main Page](README.md)
-- [LDA Code](lda-code-example.md)
+- [LDA Code](source/lda_test.py)
