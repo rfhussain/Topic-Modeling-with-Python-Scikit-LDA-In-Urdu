@@ -28,4 +28,4 @@
 ###### <div dir="rtl"></div>
 
 - [Main Page](README.md)
-- [How LDA Works](lda-source.md)
+- [How LDA Works](lda-application.md)
