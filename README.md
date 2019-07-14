@@ -4,6 +4,10 @@ This is a tutorial along with the code for how to perform a topic modeling using
 
 ###### <div dir="rtl">اس سے پہلے کہ ابتداء کی جائے ۔ چند موضوعات کا مختصر تعارف دینا ضروری ہے۔ امید ہے کہ آپ پہلے سے ہی ان موضوعات سے واقف ہوں گے لیکن پھر بھی ان لوگوں کے لیے جو کہ پہلی مرتبہ     ڈیٹا سائنس     میں دلچسپی لے رہے ہیں ۔ ان کے لیے مختصر تعارف  درج ذیل ہے ۔ </div>
 
+###### <ul dir="rtl">
+  ###### <li>مشین لرننگ Machine Learning</li>
+  ###### <li>موجوعات کی جانچ Topic Modeling</li>
+###### </ul>  
 
 ### <p align="center">Topic Modeling</p>
 ###### <div dir="rtl"> ایک ایسی تکنیک ہے جس کے ذریعے سے ہم کسی بڑے حجم کے مواد Text Corpus    کی جانج پڑتال یعنی Analysis کرسکتے ہیں ۔ یہ اس   Text Corpus میں موجود مختلف دستاویزات Documents   کو  موضوعات  Topics     میں یکجا کردیتی ہے </div>
