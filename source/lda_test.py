@@ -14,18 +14,24 @@ import random
 npr = pd.read_csv('file:..\\\data\\npr.csv')
 
 #initializing the count vectorizer
+#max document frequencey means that the percentage of max frequency shuld be less than 90% of any word across documents
+#min document frequencey is an integer, means that a word must occur at least 2 or more times to be counted
+#stop words will be automatically tackled through sklearn 
 cv = CountVectorizer(max_df=0.9, min_df=2, stop_words='english')
 
 #the fit transform method will return a sparse matrix (numberofariticles x totalwords)
 dtm  = cv.fit_transform(npr['Article'])
 
-#
+#initialize the LDA, n_components =7 means that we are opting for 7 distinct topics
+#the n_components depends upon how big is the repository and how many topics you want to discover
+#keep the random state as 42
 LDA = LatentDirichletAllocation(n_components=7, random_state=42)
 
+#fit the model into lda
 LDA.fit(dtm)
 
 #grab the vocabulary of words
-    #get the random words 
+#get the random words 
 random_int = random.randint(0,54777)
 
 cv.get_feature_names()[random_int] #this function will get the words from the document
@@ -55,4 +61,4 @@ topic_results = LDA.transform(dtm)
 topic_results[0]
  
     
-    print("finished..")
+print("finished..")
